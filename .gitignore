@@ -1,0 +1,32 @@
+venv/
+env/
+.venv/
+
+*.pyc
+*~$
+*.mo
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints
+
+db.sqlite3
+*.sqlite3
+*.db
+
+.env
+.flaskenv
+settings_local.py
+*/settings_local.py
+
+media/
+*/media/
+
+staticfiles/
+*/staticfiles/
+static_root/
+
+.DS_Store # macOS
+Thumbs.db # Windows
+.vscode/ # VS Code settings (tùy chọn)
+.idea/ # PyCharm/IntelliJ settings (tùy chọn)

@@ -1,0 +1,54 @@
+[
+  {
+    "model": "customer_relationship_management.transaction",
+    "pk": 1,
+    "fields": {
+      "customer": 1,
+      "date": "2025-09-15",
+      "amount": 1500,
+      "status": "COMPLETED",
+      "description": "Purchase of item A",
+      "created_at": "2025-09-15T10:00:00Z",
+      "updated_at": "2025-09-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "customer_relationship_management.transaction",
+    "pk": 2,
+    "fields": {
+      "customer": 1,
+      "date": "2025-09-20",
+      "amount": 200,
+      "status": "COMPLETED",
+      "description": "Purchase of item B",
+      "created_at": "2025-09-20T14:30:00Z",
+      "updated_at": "2025-09-20T14:30:00Z"
+    }
+  },
+  {
+    "model": "customer_relationship_management.transaction",
+    "pk": 3,
+    "fields": {
+      "customer": 2,
+      "date": "2025-09-25",
+      "amount": 50,
+      "status": "PENDING",
+      "description": "Purchase of item C",
+      "created_at": "2025-09-25T11:00:00Z",
+      "updated_at": "2025-09-25T11:00:00Z"
+    }
+  },
+    {
+    "model": "customer_relationship_management.transaction",
+    "pk": 4,
+    "fields": {
+      "customer": 3,
+      "date": "2025-09-28",
+      "amount": 5000,
+      "status": "COMPLETED",
+      "description": "Bulk order",
+      "created_at": "2025-09-28T09:00:00Z",
+      "updated_at": "2025-09-28T09:00:00Z"
+    }
+  }
+]

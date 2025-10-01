@@ -1,0 +1,19 @@
+
+[
+  {
+    "model": "warehouse_management.Warehouse",
+    "pk": 1,
+    "fields": {
+      "name": "Main Warehouse",
+      "location": "Ho Chi Minh City"
+    }
+  },
+  {
+    "model": "warehouse_management.Warehouse",
+    "pk": 2,
+    "fields": {
+      "name": "Secondary Warehouse",
+      "location": "Hanoi"
+    }
+  }
+]

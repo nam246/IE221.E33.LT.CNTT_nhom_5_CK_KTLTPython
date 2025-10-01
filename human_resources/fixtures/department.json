@@ -1,0 +1,23 @@
+[
+  {
+    "model": "human_resources.Department",
+    "pk": 1,
+    "fields": {
+      "name": "Human Resources"
+    }
+  },
+  {
+    "model": "human_resources.Department",
+    "pk": 2,
+    "fields": {
+      "name": "Information Technology"
+    }
+  },
+  {
+    "model": "human_resources.Department",
+    "pk": 3,
+    "fields": {
+      "name": "Finance"
+    }
+  }
+]

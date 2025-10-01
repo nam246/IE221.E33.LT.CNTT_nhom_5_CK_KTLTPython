@@ -1,0 +1,152 @@
+[
+  {
+    "model": "human_resources.Employee",
+    "pk": 1,
+    "fields": {
+      "employee_code": "E001",
+      "fullname": "Nguyen Van A",
+      "address": "Hanoi, Vietnam",
+      "email": "a.nguyen@example.com",
+      "phone_number": "0912345678",
+      "position": "staff",
+      "department": 1,
+      "net_salary": "12000000.00",
+      "gross_salary": "15000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 2,
+    "fields": {
+      "employee_code": "E002",
+      "fullname": "Tran Thi B",
+      "address": "Ho Chi Minh City, Vietnam",
+      "email": "b.tran@example.com",
+      "phone_number": "0987654321",
+      "position": "manager",
+      "department": 2,
+      "net_salary": "20000000.00",
+      "gross_salary": "25000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 3,
+    "fields": {
+      "employee_code": "E003",
+      "fullname": "Le Van C",
+      "address": "Da Nang, Vietnam",
+      "email": "c.le@example.com",
+      "phone_number": "0901111222",
+      "position": "staff",
+      "department": 1,
+      "net_salary": "10000000.00",
+      "gross_salary": "13000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 4,
+    "fields": {
+      "employee_code": "E004",
+      "fullname": "Pham Thi D",
+      "address": "Hai Phong, Vietnam",
+      "email": "d.pham@example.com",
+      "phone_number": "0933333444",
+      "position": "staff",
+      "department": 3,
+      "net_salary": "11000000.00",
+      "gross_salary": "14000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 5,
+    "fields": {
+      "employee_code": "E005",
+      "fullname": "Do Van E",
+      "address": "Can Tho, Vietnam",
+      "email": "e.do@example.com",
+      "phone_number": "0945555666",
+      "position": "manager",
+      "department": 2,
+      "net_salary": "22000000.00",
+      "gross_salary": "27000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 6,
+    "fields": {
+      "employee_code": "E006",
+      "fullname": "Hoang Thi F",
+      "address": "Hue, Vietnam",
+      "email": "f.hoang@example.com",
+      "phone_number": "0957777888",
+      "position": "staff",
+      "department": 3,
+      "net_salary": "9500000.00",
+      "gross_salary": "12000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 7,
+    "fields": {
+      "employee_code": "E007",
+      "fullname": "Vo Van G",
+      "address": "Quang Ninh, Vietnam",
+      "email": "g.vo@example.com",
+      "phone_number": "0969999000",
+      "position": "staff",
+      "department": 1,
+      "net_salary": "12500000.00",
+      "gross_salary": "16000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 8,
+    "fields": {
+      "employee_code": "E008",
+      "fullname": "Nguyen Thi H",
+      "address": "Nha Trang, Vietnam",
+      "email": "h.nguyen@example.com",
+      "phone_number": "0972222333",
+      "position": "manager",
+      "department": 3,
+      "net_salary": "21000000.00",
+      "gross_salary": "26000000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 9,
+    "fields": {
+      "employee_code": "E009",
+      "fullname": "Tran Van I",
+      "address": "Bac Ninh, Vietnam",
+      "email": "i.tran@example.com",
+      "phone_number": "0984444555",
+      "position": "staff",
+      "department": 2,
+      "net_salary": "11500000.00",
+      "gross_salary": "14500000.00"
+    }
+  },
+  {
+    "model": "human_resources.Employee",
+    "pk": 10,
+    "fields": {
+      "employee_code": "E010",
+      "fullname": "Le Thi J",
+      "address": "Vung Tau, Vietnam",
+      "email": "j.le@example.com",
+      "phone_number": "0996666777",
+      "position": "staff",
+      "department": 1,
+      "net_salary": "10500000.00",
+      "gross_salary": "13500000.00"
+    }
+  }
+]

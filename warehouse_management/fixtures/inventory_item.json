@@ -1,0 +1,47 @@
+[
+  {
+    "model": "warehouse_management.InventoryItem",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "warehouse": 1,
+      "quantity": 20
+    }
+  },
+  {
+    "model": "warehouse_management.InventoryItem",
+    "pk": 2,
+    "fields": {
+      "product": 2,
+      "warehouse": 1,
+      "quantity": 10
+    }
+  },
+  {
+    "model": "warehouse_management.InventoryItem",
+    "pk": 3,
+    "fields": {
+      "product": 3,
+      "warehouse": 2,
+      "quantity": 50
+    }
+  },
+  {
+    "model": "warehouse_management.InventoryItem",
+    "pk": 4,
+    "fields": {
+      "product": 4,
+      "warehouse": 2,
+      "quantity": 100
+    }
+  },
+  {
+    "model": "warehouse_management.InventoryItem",
+    "pk": 5,
+    "fields": {
+      "product": 1,
+      "warehouse": 2,
+      "quantity": 5
+    }
+  }
+]
