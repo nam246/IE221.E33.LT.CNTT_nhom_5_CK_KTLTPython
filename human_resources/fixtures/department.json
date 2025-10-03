@@ -3,21 +3,27 @@
     "model": "human_resources.Department",
     "pk": 1,
     "fields": {
-      "name": "Human Resources"
+      "name": "Human Resources",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
     "model": "human_resources.Department",
     "pk": 2,
     "fields": {
-      "name": "Information Technology"
+      "name": "Information Technology",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
     "model": "human_resources.Department",
     "pk": 3,
     "fields": {
-      "name": "Finance"
+      "name": "Finance",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   }
 ]

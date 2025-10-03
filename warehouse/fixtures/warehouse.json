@@ -1,19 +1,22 @@
-
 [
   {
-    "model": "warehouse_management.Warehouse",
+    "model": "warehouse.Warehouse",
     "pk": 1,
     "fields": {
       "name": "Main Warehouse",
-      "location": "Ho Chi Minh City"
+      "location": "Ho Chi Minh City",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "warehouse_management.Warehouse",
+    "model": "warehouse.Warehouse",
     "pk": 2,
     "fields": {
       "name": "Secondary Warehouse",
-      "location": "Hanoi"
+      "location": "Hanoi",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   }
 ]

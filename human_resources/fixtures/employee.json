@@ -11,7 +11,9 @@
       "position": "staff",
       "department": 1,
       "net_salary": "12000000.00",
-      "gross_salary": "15000000.00"
+      "gross_salary": "15000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -26,7 +28,9 @@
       "position": "manager",
       "department": 2,
       "net_salary": "20000000.00",
-      "gross_salary": "25000000.00"
+      "gross_salary": "25000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -41,7 +45,9 @@
       "position": "staff",
       "department": 1,
       "net_salary": "10000000.00",
-      "gross_salary": "13000000.00"
+      "gross_salary": "13000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -56,7 +62,9 @@
       "position": "staff",
       "department": 3,
       "net_salary": "11000000.00",
-      "gross_salary": "14000000.00"
+      "gross_salary": "14000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -71,7 +79,9 @@
       "position": "manager",
       "department": 2,
       "net_salary": "22000000.00",
-      "gross_salary": "27000000.00"
+      "gross_salary": "27000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -86,7 +96,9 @@
       "position": "staff",
       "department": 3,
       "net_salary": "9500000.00",
-      "gross_salary": "12000000.00"
+      "gross_salary": "12000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -101,7 +113,9 @@
       "position": "staff",
       "department": 1,
       "net_salary": "12500000.00",
-      "gross_salary": "16000000.00"
+      "gross_salary": "16000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -116,7 +130,9 @@
       "position": "manager",
       "department": 3,
       "net_salary": "21000000.00",
-      "gross_salary": "26000000.00"
+      "gross_salary": "26000000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
@@ -131,14 +147,16 @@
       "position": "staff",
       "department": 2,
       "net_salary": "11500000.00",
-      "gross_salary": "14500000.00"
+      "gross_salary": "14500000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
     "model": "human_resources.Employee",
     "pk": 10,
     "fields": {
-      "employee_code": "E010",
+      "employee_code": "E0010",
       "fullname": "Le Thi J",
       "address": "Vung Tau, Vietnam",
       "email": "j.le@example.com",
@@ -146,7 +164,9 @@
       "position": "staff",
       "department": 1,
       "net_salary": "10500000.00",
-      "gross_salary": "13500000.00"
+      "gross_salary": "13500000.00",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   }
 ]

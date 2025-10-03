@@ -1,70 +1,84 @@
 [
   {
-    "model": "product_management.Category",
+    "model": "product.Category",
     "pk": 1,
     "fields": {
       "name": "Electronics",
-      "description": "Devices and gadgets like phones, laptops, and tablets."
+      "description": "Devices and gadgets like phones, laptops, and tablets.",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "product_management.Category",
+    "model": "product.Category",
     "pk": 2,
     "fields": {
       "name": "Books",
-      "description": "Fiction, non-fiction, educational, and more."
+      "description": "Fiction, non-fiction, educational, and more.",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "product_management.Category",
+    "model": "product.Category",
     "pk": 3,
     "fields": {
       "name": "Clothing",
-      "description": "Men's, women's, and children's clothing."
+      "description": "Men's, women's, and children's clothing.",
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "product_management.Product",
+    "model": "product.Product",
     "pk": 1,
     "fields": {
       "name": "iPhone 15",
       "description": "Latest Apple smartphone with A16 Bionic chip.",
       "in_stock": true,
       "quantity": 50,
-      "category": 1
+      "category": 1,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "product_management.Product",
+    "model": "product.Product",
     "pk": 2,
     "fields": {
       "name": "MacBook Pro",
       "description": "High-performance laptop for professionals.",
       "in_stock": true,
       "quantity": 20,
-      "category": 1
+      "category": 1,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "product_management.Product",
+    "model": "product.Product",
     "pk": 3,
     "fields": {
       "name": "Python Programming",
       "description": "A beginner-friendly programming book.",
       "in_stock": true,
       "quantity": 100,
-      "category": 2
+      "category": 2,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "product_management.Product",
+    "model": "product.Product",
     "pk": 4,
     "fields": {
       "name": "Men's T-Shirt",
       "description": "Comfortable cotton t-shirt.",
       "in_stock": true,
       "quantity": 200,
-      "category": 3
+      "category": 3,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   }
 ]

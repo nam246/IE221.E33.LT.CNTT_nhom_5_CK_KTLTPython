@@ -1,47 +1,57 @@
 [
   {
-    "model": "warehouse_management.InventoryItem",
+    "model": "warehouse.InventoryItem",
     "pk": 1,
     "fields": {
       "product": 1,
       "warehouse": 1,
-      "quantity": 20
+      "quantity": 20,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "warehouse_management.InventoryItem",
+    "model": "warehouse.InventoryItem",
     "pk": 2,
     "fields": {
       "product": 2,
       "warehouse": 1,
-      "quantity": 10
+      "quantity": 10,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "warehouse_management.InventoryItem",
+    "model": "warehouse.InventoryItem",
     "pk": 3,
     "fields": {
       "product": 3,
       "warehouse": 2,
-      "quantity": 50
+      "quantity": 50,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "warehouse_management.InventoryItem",
+    "model": "warehouse.InventoryItem",
     "pk": 4,
     "fields": {
       "product": 4,
       "warehouse": 2,
-      "quantity": 100
+      "quantity": 100,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   },
   {
-    "model": "warehouse_management.InventoryItem",
+    "model": "warehouse.InventoryItem",
     "pk": 5,
     "fields": {
       "product": 1,
       "warehouse": 2,
-      "quantity": 5
+      "quantity": 5,
+      "created_at": "2025-10-03T04:05:06.123456",
+      "updated_at": "2025-10-03T04:05:06.123456"
     }
   }
 ]
