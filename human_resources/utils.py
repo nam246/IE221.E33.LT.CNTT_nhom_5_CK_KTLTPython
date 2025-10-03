@@ -32,6 +32,20 @@ def employee_serializer(employee):
         'gross_salary': employee.gross_salary
     }
 
-
-def employee_gross_salary_calc(employee):
+def employee_validator(data):
     """"""
+    data['fullname'] = str(data['fullname'])
+    data['email'] = str(data['email'])
+    data['phone_number'] = str(data['phone_number'])
+    data['position'] = str(data['position']) in ('Staff', 'Manager')
+    data['department'] = data['department']
+    data['net_salary'] = float(data['net_salary'])
+    data['gross_salary'] = float(data['gross_salary'])
+
+def employee_gross_salary_calc(net_salary, position):
+    """Tính toán gross salary dựa vào net salary và position."""
+    if position == 'staff':
+        deduction_rate = 0.15
+    else:  # manager
+        deduction_rate = 0.20
+    return net_salary / (1 - deduction_rate)

@@ -1,25 +1,14 @@
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render
 
-from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
+from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 
-from .utils.data_helper import employee_code_generator, employee_serializer, department_serializer
-from .utils.validate import employee_validator
-from .models import Department
-from .models import Employee
+from .utils import employee_code_generator, employee_serializer, department_serializer, employee_validator
+from .models import Department, Employee
 
 
 # Create your views here.
-
-
-## 4. Quản lý nhân sự (Human Resources)
-# - Quản lý hồ sơ nhân viên
-# - Tính lương và phúc lợi
-# - Đào tạo và phát triển
-# - Tuyển dụng
-# - Đánh giá hiệu suất
 
 def index(request):
     return HttpResponse('this is human resource page')
@@ -27,8 +16,11 @@ def index(request):
 
 @login_required
 @require_http_methods(['POST'])
+@csrf_exempt
 def create_department(request):
     """create a new department"""
+    department = Department.objects.create(name=request.POST['name'])
+    return JsonResponse(department_serializer(department), status=201)
 
 
 @login_required
@@ -77,7 +69,6 @@ def create_employee(request):
         'position': request.POST['position'],
         'department': Department.objects.get(id=request.POST['department']),
         'net_salary': request.POST['net_salary'],
-        'gross_salary': request.POST['gross_salary']
     }
 
     employee_validator(data)
@@ -91,7 +82,6 @@ def create_employee(request):
         position=data['position'],
         department=data['department'],
         net_salary=data['net_salary'],
-        gross_salary=data['gross_salary']
     )
 
     return JsonResponse({"message": "created successfully"}, safe=False, status=201)
@@ -147,7 +137,6 @@ def update(request, id):
             position=request.POST['position'],
             department=request.POST['department'],
             net_salary=request.POST['net_salary'],
-            gross_salary=request.POST['gross_salary'],
         )
         return JsonResponse({'data': edit_employee, "message": "updated successfully"}, safe=False, status=203)
     else:

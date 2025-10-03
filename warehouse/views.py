@@ -3,7 +3,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 
-from product_management.models import Product
+from product.models import Product
 from .models import Warehouse, InventoryItem
 from .utils import warehouse_serializer, inventory_item_serializer
 

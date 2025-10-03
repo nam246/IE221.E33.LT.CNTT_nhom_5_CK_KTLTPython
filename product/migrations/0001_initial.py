@@ -28,7 +28,7 @@ class Migration(migrations.Migration):
                 ('description', models.TextField()),
                 ('in_stock', models.BooleanField()),
                 ('quantity', models.IntegerField()),
-                ('category', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product_management.category')),
+                ('category', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.category')),
             ],
         ),
     ]
